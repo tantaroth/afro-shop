@@ -1,0 +1,31 @@
+<ion-side-menus enable-menu-with-back-views="true">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button></ion-nav-back-button>
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="side-menu21"></ion-nav-view>
+    </ion-side-menu-content>
+    <ion-side-menu side="left" id="side-menu21">
+        <ion-header-bar class="bar-stable">
+            <div class="title">Menu</div>
+        </ion-header-bar>
+        <ion-content padding="false" class="side-menu-left has-header">
+            <ion-list id="menu-list7" class=" ">
+                <ion-item class="energized  " id="menu-list-item1" ui-sref="app.account" menu-close>Reichel Zoe Ramirez Urrutia</ion-item>
+                <ion-item class="item-icon-right  " id="menu-list-item8" ui-sref="app.categories" menu-close>Colecciones
+                    <i class="icon ion-ios-pricetags-outline"></i>
+                </ion-item>
+                <ion-item class="item-icon-right" id="menu-list-item2" ui-sref="app.products" menu-close>Lista de Productos
+                    <i class="icon icon-t-shirt"></i>
+                </ion-item>
+                <ion-item class="item-icon-right  " id="menu-list-item9" ui-sref="app.favorites" menu-close>Favorites
+                    <i class="icon ion-android-favorite-outline"></i>
+                </ion-item>
+                <ion-item class="assertive  " id="menu-list-item10" ui-sref="login" menu-close>Salir</ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
